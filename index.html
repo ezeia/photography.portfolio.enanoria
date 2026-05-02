@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>My Photography Portfolio</h1>
+        <nav class="filters">
+            <button onclick="filter('all')">All</button>
+            <button onclick="filter('Beach')">Beach</button>
+            <button onclick="filter('Violin')">Violin</button>
+            <button onclick="filter('Guitar')">Guitar</button>
+        </nav>
+    </header>
+
+    <main id="gallery" class="grid-container">
+        <!-- Photo 1: Beach -->
+        <div class="portfolio-item Beach">
+            <img src="IMG_0191.jpeg" alt="Beach">
+        </div>
+
+        <!-- Photo 2: Violin -->
+        <div class="portfolio-item Violin">
+            <img src="1C3D2AA4-4B95-401C-AE03-5A1B4707B570.jpeg" alt="Violin">
+        </div>
+
+        <!-- Photo 3: Guitar -->
+        <div class="portfolio-item Guitar">
+            <img src="2FD97022-DF4B-46FB-8F2D-63671AE43484.jpeg" alt="Guitar">
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
