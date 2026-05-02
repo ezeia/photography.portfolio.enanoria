@@ -1,0 +1,40 @@
+/* Professional Portfolio Styling */
+body { 
+    font-family: 'Segoe UI', sans-serif; 
+    margin: 0; 
+    background-color: #f8f9fa; 
+    text-align: center; 
+}
+
+header { 
+    background: #333; 
+    color: white; 
+    padding: 40px 20px; 
+}
+
+/* Category Buttons */
+.filters button {
+    padding: 10px 25px;
+    margin: 10px 5px;
+    border: none; 
+    border-radius: 20px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* The Grid Layout (Required for your project) */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 40px;
+}
+
+/* Mobile Responsive Rule */
+@media (max-width: 600px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+}
